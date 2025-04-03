@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body class="overflow-x-hidden">
+  <div class="w-full">
+    <div class="">
+      <nav class="fixed flex justify-between items-center py-4 px-6 w-full ">
+        <div class="logo text-2xl font-bold text-black ">deveb.co</div>
+
+        <div class="flex justify-between items-center">
+
+          <a class="mx-4 opacity-50 text-black">Home</a>
+          <a class="mx-4 opacity-50 text-black">About</a>
+          <a class="mx-4 opacity-50 text-black">Services</a>
+          <a class="mx-4 opacity-50 text-black">Contact</a>
+        <a class="mx-4  text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </a>
+        </div>
+
+      </nav>
+    </div>
+    <div class="landing w-full h-[200vh] ">
+      <div class="h-screen w-full sticky top-0 left-0">
+
+        <h1 class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl whitespace-nowrap font-semibold tracking-tighter pointer-events-none select-none" >
+          Design . Develop . Deploy
+        </h1>
+        <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl text-center font-normal tracking-wide leading-relaxed opacity-0 pointer-events-none select-none">A creative agency with solid expertise
+          in design & web development.</p>
+      <canvas id="canvas" class=" block w-full h-full -z-30">
+      </canvas>
+    </div>
+    </div>
+
+    <div class="w-full h-screen section2">
+
+    </div>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
